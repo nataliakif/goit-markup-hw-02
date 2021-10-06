@@ -74,7 +74,7 @@ a, ul{
    
     }
 .hero-button:hover, .hero-button:focus{
-    background-color: var(--primary-text-color);
+    background-color: hsl(207, 90%, 64%);
    
 }
 
