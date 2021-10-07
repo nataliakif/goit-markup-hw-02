@@ -33,16 +33,26 @@ a, ul{
    color: var(--title-text-color);
 }
 /* Навигация сайта */
-.nav-list, .header-email, .header-contacts{
+.nav-list, 
+.header-email,
+.header-contacts{
     text-decoration: none;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.02em;
 }
-.nav-link, .header-email-link{
+.nav-link, 
+.header-email-link{
     text-decoration: none;
-    color: var(--title-text-color);}
-.nav-link:hover, .nav-link:focus, .header-email-link:hover, .header-email-link:focus, .header-tel-link:hover, .header-tel-link:focus {
+    color: var(--title-text-color);
+}
+.nav-link:hover, 
+.nav-link:focus, 
+.nav-link.current,
+.header-email-link:hover, 
+.header-email-link:focus, 
+.header-tel-link:hover,
+.header-tel-link:focus {
     color: var(--primary-accent-color);
 }
 .header-tel-link{
@@ -111,13 +121,17 @@ a, ul{
 footer{
     background-color: #2F303A;  
 }
-.footer-logo-span, .footer-address-link {
+.footer-logo-span,
+.footer-address-link {
       color: var(--secondary-accent-color);
 } 
-  .footer-email-link, .footer-tel-link{
+.footer-email-link,
+.footer-tel-link{
     color: rgba(255, 255, 255, 0.6);
-   }
-.footer-address-link, .footer-email-link, .footer-tel-link{
+}
+.footer-address-link,
+.footer-email-link, 
+.footer-tel-link{
     list-style-type: inherit;
     font-style: normal;
 }
@@ -128,7 +142,7 @@ footer{
 .footer-email-link:focus, 
 .footer-tel-link:hover,
 .footer-tel-link:focus{
-    color: var(--primary-accent-color);;
+    color: var(--primary-accent-color);
 }
 /* Страница Портфолио */
 .nav-button{
@@ -142,17 +156,17 @@ footer{
     line-height: 1.63em;
     text-align: center;
 
-    }
-    .nav-button:hover{
-        background: var(--primary-accent-color);
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        color: var(--secondary-accent-color);
-        }
-    .nav-button:focus{
-        border-width: 2px;
-        border-color: var(--primary-accent-color);
+}
+.nav-button:hover{
+    background: var(--primary-accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--secondary-accent-color);
+}
+.nav-button:focus{
+    border-width: 2px;
+    border-color: var(--primary-accent-color);
         
-    }
+}
 .projects-item-header{
     font-weight: bold;
     font-size: 18px;
@@ -167,3 +181,4 @@ footer{
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
  }
+ 
