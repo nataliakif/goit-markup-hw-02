@@ -24,7 +24,7 @@ a, ul{
     background-color: var(--secondary-accent-color);
 }
 .logo{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2em;
     color: var(--primary-accent-color);   
@@ -73,10 +73,11 @@ a, ul{
     }
 .hero-button{
     cursor: pointer;
+    font-family: inherit;
     background-color: var(--primary-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.88em;
     letter-spacing: 0.06em;
@@ -90,14 +91,14 @@ a, ul{
 
 /* Секция преимущества*/
 .section-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.17em;
     text-align: center;
     color: var(--title-text-color);
 }
 .features-list-title{
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.14em;
     text-transform: uppercase;
     color: var(--title-text-color);
@@ -147,6 +148,7 @@ footer{
 /* Страница Портфолио */
 .nav-button{
     cursor: pointer;
+    font-family: inherit;
     color: var(--title-text-color);
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -168,7 +170,7 @@ footer{
         
 }
 .projects-item-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2em;
     letter-spacing: 0.06em;
