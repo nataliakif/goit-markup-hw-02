@@ -5,16 +5,15 @@
     --secondary-accent-color: #FFFFFF;
 }
 body{
-    background-color: #E5E5E5;
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7em;
+    line-height: 1.7;
     letter-spacing: 0.03em;
 }
-a, ul{
+.link, .list{
     list-style: none;
     text-decoration: none;
 
@@ -22,27 +21,28 @@ a, ul{
 /* Шапка сайта */
 .site-header{
     background-color: var(--secondary-accent-color);
+    border: 1px solid #ECECEC;
 }
 .logo{
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.2em;
+    line-height: 1.2;
     color: var(--primary-accent-color);   
 }
 .header-logo-span{
    color: var(--title-text-color);
 }
 /* Навигация сайта */
-.nav-list, 
+.nav-list,
 .header-email,
 .header-contacts{
     text-decoration: none;
     font-weight: 500;
-    line-height: 1.14em;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.nav-link, 
-.header-email-link{
+.nav-link{
     text-decoration: none;
     color: var(--title-text-color);
 }
@@ -55,6 +55,7 @@ a, ul{
 .header-tel-link:focus {
     color: var(--primary-accent-color);
 }
+.header-email-link,
 .header-tel-link{
     color: var(--primary-text-color);
 }
@@ -65,7 +66,7 @@ a, ul{
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36em; 
+    line-height: 1.36; 
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -79,7 +80,7 @@ a, ul{
     border-radius: 4px; 
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88em;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--secondary-accent-color);
    
@@ -93,13 +94,13 @@ a, ul{
 .section-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.17em;
+    line-height: 1.17;
     text-align: center;
     color: var(--title-text-color);
 }
 .features-list-title{
     font-weight: 700;
-    line-height: 1.14em;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
@@ -108,15 +109,13 @@ a, ul{
     background-color:#F5F4FA;
 }
 .team-list{
-    font-style: normal;
     font-size: 16px;
-    line-height: 1.19em;
+    line-height: 1.19;
     text-align: center;
 }
 .team-list-title{
     font-weight: 500;
-    color: var(--title-text-color);
-    text-align: center;
+    color: var(--title-text-color);   
 }  
 /* Подвал сайта */
 footer{
@@ -134,7 +133,6 @@ footer{
 .footer-email-link, 
 .footer-tel-link{
     list-style-type: inherit;
-    font-style: normal;
 }
   
 .footer-address-link:hover,
@@ -155,31 +153,26 @@ footer{
     border-color: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.63em;
+    line-height: 1.63;
     text-align: center;
 
 }
-.nav-button:hover{
+.nav-button:hover,
+.nav-button:focus{
     background: var(--primary-accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--secondary-accent-color);
 }
-.nav-button:focus{
-    border-width: 2px;
-    border-color: var(--primary-accent-color);
-        
-}
 .projects-item-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 2em;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
 .projects-item-text{
     font-size: 16px;
-    line-height: 1.88em;
-    /* identical to box height, or 187% */
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
  }
