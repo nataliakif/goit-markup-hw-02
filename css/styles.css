@@ -7,11 +7,11 @@
 body{
     background-color: #E5E5E5;
     color: var(--primary-text-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.5em;
+    line-height: 1.7em;
     letter-spacing: 0.03em;
 }
 a, ul{
@@ -26,7 +26,7 @@ a, ul{
 .logo{
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.9em;
+    line-height: 1.2em;
     color: var(--primary-accent-color);   
 }
 .header-logo-span{
@@ -38,7 +38,7 @@ a, ul{
 .header-contacts{
     text-decoration: none;
     font-weight: 500;
-    line-height: 1em;
+    line-height: 1.14em;
     letter-spacing: 0.02em;
 }
 .nav-link, 
@@ -65,7 +65,7 @@ a, ul{
 .hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 3.75em; 
+    line-height: 1.36em; 
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -92,13 +92,13 @@ a, ul{
 .section-title{
     font-weight: bold;
     font-size: 36px;
-    line-height: 2.63em;
+    line-height: 1.17em;
     text-align: center;
     color: var(--title-text-color);
 }
 .features-list-title{
     font-weight: bold;
-    line-height: 1em;
+    line-height: 1.14em;
     text-transform: uppercase;
     color: var(--title-text-color);
 }
@@ -167,10 +167,10 @@ footer{
     border-color: var(--primary-accent-color);
         
 }
-.projects-item-header{
+.projects-item-title{
     font-weight: bold;
     font-size: 18px;
-    line-height: 2.25em;
+    line-height: 2em;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
 }
