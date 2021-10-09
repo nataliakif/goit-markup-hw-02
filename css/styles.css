@@ -130,7 +130,7 @@ footer{
 .address {
       color: var(--secondary-accent-color);
 } 
-.fcontact-link:hover,
+.contact-link:hover,
 .contact-link:focus{
     color: var(--primary-accent-color);
 }
