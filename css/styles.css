@@ -117,7 +117,7 @@ body{
     color: var(--title-text-color);   
 }  
 /* Подвал сайта */
-footer{
+.site-footer{
     background-color: #2F303A; 
      
 }
