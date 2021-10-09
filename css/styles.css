@@ -48,14 +48,12 @@ body{
 .nav-link:hover, 
 .nav-link:focus, 
 .nav-link.current,
-.header-email-link:hover, 
-.header-email-link:focus, 
-.header-tel-link:hover,
-.header-tel-link:focus {
+.header-contact:hover, 
+.header-contact:focus{
     color: var(--primary-accent-color);
 }
-.header-email-link,
-.header-tel-link{
+.header-contact{
+    
     color: var(--primary-text-color);
 }
 /* Секция Hero */
