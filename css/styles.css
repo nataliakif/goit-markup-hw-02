@@ -42,7 +42,6 @@ body{
     letter-spacing: 0.02em;
 }
 .nav-link{
-    text-decoration: none;
     color: var(--title-text-color);
 }
 .nav-link:hover, 
@@ -52,8 +51,7 @@ body{
 .header-contact:focus{
     color: var(--primary-accent-color);
 }
-.header-contact{
-    
+.header-contact{  
     color: var(--primary-text-color);
 }
 /* Секция Hero */
